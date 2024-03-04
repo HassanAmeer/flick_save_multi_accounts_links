@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "950225253942",
+    "project_id": "flick-79e97",
+    "storage_bucket": "flick-79e97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950225253942:android:03b71cc71512ac320dca97",
+        "android_client_info": {
+          "package_name": "com.example.flick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950225253942-ueesmggbv86pr6jtv26okocssqi351f5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flick",
+            "certificate_hash": "729bef3fce887cca5ec117ffc5935fcbb48de076"
+          }
+        },
+        {
+          "client_id": "950225253942-0ue1rfv2ek6jr6skvppcdhv9l1n364ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn9UFgD_rw31s_LXqS0QA5-VsOGqwGcNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950225253942-0ue1rfv2ek6jr6skvppcdhv9l1n364ln.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "950225253942-1l8ka0b7qa3o0f9cc9k5681b35ssvjtn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flick.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
