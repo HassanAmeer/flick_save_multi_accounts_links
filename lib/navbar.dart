@@ -154,6 +154,8 @@ class _NavBarState extends State<NavBar> {
                     onTap: (index) {
                       homePageProvider.pageController.jumpToPage(index);
                     },
+                    kBottomRadius: 20,
+                    kIconSize: 20,
                   ),
                 ),
             ],

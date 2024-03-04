@@ -40,6 +40,7 @@ class _ProfileScreenState extends State<ProfileScreen>
     context.read<AuthProviders>().getUserData(context);
     Provider.of<StngsVmC>(context, listen: false).getProfilePathVmF();
     Provider.of<HomePageProvider>(context, listen: false).tabFuncation(this);
+    // Provider.of<ToggleDirectModeVmC>(context, listen: false).checkDirectModeEnabledOrNotF(context);
     // Listen to page changes and update the activePageIndex accordingly
     pageController.addListener(() {
       setState(() {

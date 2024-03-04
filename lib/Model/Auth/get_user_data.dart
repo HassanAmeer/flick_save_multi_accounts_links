@@ -46,7 +46,7 @@ class GetUserData {
       organization: json["organization"],
       userImage: json["userImage"] ?? " ",
       isActive: json["isActive"],
-      isDirect: json["userDirectMode"],
+      isDirect: json["directMode"],
       deviceTokens: json["deviceToken"] ?? [],
       isChoosedCatgBtnOptions: json["isChoosedCatgBtnOptions"] ?? false,
       isEnabledLostMode: json["isEnabledLostMode"] ?? false,
@@ -63,7 +63,7 @@ class GetUserData {
         "organization": organization,
         "userImage": userImage,
         "isActive": isActive,
-        "userDirectMode": isActive,
+        "directMode": isActive,
         // "isChoosedCatgBtnOptions": isChoosedCatgBtnOptions ?? false,
         "socialMedia": socialMedia == null
             ? []

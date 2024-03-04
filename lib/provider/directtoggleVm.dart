@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../datasource/remote/base/api_response.dart';
-import '../repo/auth_repo.dart';
+// import '../datasource/remote/base/api_response.dart';
+// import '../repo/auth_repo.dart';
 import '../utils/app_constant.dart';
 import 'package:flick/provider/auth.dart';
 
@@ -20,6 +20,17 @@ class ToggleDirectModeVmC with ChangeNotifier {
   bool isDirect = false;
   bool isStartProfileDirectFromVM = false;
   String socialmediaidis = "";
+
+  // checkDirectModeEnabledOrNotF(context) {
+  //   try {
+  //     isDirect =
+  //         Provider.of<AuthProviders>(context, listen: false).getData!.isDirect!;
+  //     notifyListeners();
+  //   } catch (e) {
+  //     debugPrint(
+  //         " 💥 when added is Direct Mode from checkDirectModeEnabledOrNotF  $e");
+  //   }
+  // }
 
   void toggleDirect(context, boolvalue, socialmediaid,
       {bool? isFromList = false}) async {
